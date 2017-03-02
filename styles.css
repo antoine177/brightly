@@ -1,0 +1,243 @@
+body {
+	background-color: #FFF3CF;
+	font-family: 'Helvetica Neue';
+	font-size: 21px;
+	color: #3D1F00;
+}
+
+h1 {
+	font-family: 'Roboto Mono', sans-serif;
+	color: #3D1F00;
+	font-size: 67px;
+	line-height: 1em;
+	margin: 0;
+}
+
+h3 {
+	font-family: 'Roboto Mono', sans-serif;
+	color: #3D1F00;
+	font-size: 28px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Roboto Mono', sans-serif;
+	color: #3D1F00;
+	font-size: 51px;
+	line-height: 1.3em;
+	margin: 0;
+}
+
+/*Nav styling*/
+
+.nav {
+	list-style: none;
+	display: flex;
+	margin-bottom: 50px;
+	align-items: center;
+}
+
+.nav li {
+	flex:1;
+	color: white;
+	font-family: 'Roboto Mono', sans-serif;
+	font-weight: 400;
+}
+
+.nav li a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 21;
+	text-transform: uppercase;
+}
+
+/*Header styling*/
+
+.header {
+	background-image: linear-gradient(0deg, #FFCE4E 0%, #FFEFBD 100%);	
+}
+
+.header-content {
+	width: 960px;
+	margin: 0 auto 90 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	width: 261px;
+	height: 45px;
+	text-align: center;
+	background-color: #EB533F;
+	vertical-align: center;
+	text-decoration: none;
+}
+
+.CTA {
+	font-family: 'Roboto Mono', sans-serif;
+	color: white;
+	font-size: 21px;
+	padding: 8 0;
+}
+
+.photo-product {
+	height: 420px;
+}
+
+.text-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.text-header h3 {
+	margin: 0 0 60 0px;
+}
+
+.text-header h1 {
+	margin: 0 0 30 0px;
+}
+
+/*The way to display the page elements*/
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction:column;
+    flex-grow: 1;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+/*Tagline styling*/
+
+.tagline-container {
+	height: 149px;
+	background-color: #3D1F00;
+}
+
+.tagline {
+	margin: 35 auto;
+	width: 960px;
+	text-align: center;
+
+}
+
+.tagline h3 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+
+/*Features styling */
+
+/*Our container that display the highlight and the benefits side by side*/
+.feature {
+    display: flex;
+    justify-content: space-between;
+    width:960px;
+    height: 300px;
+    margin: 200 auto 0 auto;
+}
+
+/*The highlight is also a flex container, centering the text inside*/
+.highlight {
+	height: 300px;
+	flex-basis: 262px;
+	display: flex;
+	background-color: #609F60;
+	/*box-shadow: 10px 10px 5px rgba(10,10,10,0.15)*/
+}
+
+.text-highlight {
+	margin: auto;
+}
+
+.text-highlight h3 {
+	color: #FFF3CF;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.7em;
+}
+
+/*The benefits div is also a flex container to display its 3 elements*/
+.benefits {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 549px;
+	justify-content: space-between;
+}
+
+
+.title {
+	flex-basis: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/*This let the icon display easily*/
+.icon-wrapper ul{
+	list-style: none;
+	width: 549px;
+	flex: 1;
+	display: flex;
+	align-items: stretch;
+	padding: 0;
+    margin: 60 0 25 0;
+}
+
+.icon-wrapper li {
+	flex: 1;
+	text-align: center;
+	padding: 0 20px;
+	align-items: center;
+}
+
+.icon-text ul{
+	list-style: none;
+	width: 100%;
+	display: flex;
+	padding: 0;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.icon-text li {
+	flex: 1;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.feature-icon {
+	height: 84px;
+}
+
+/*Footer syling*/
+
+.footer {
+	margin-top: 200px;
+	height: 60px;
+	background-color: #609F60;
+}
+
+.footer-tagline {
+	width: 960px;
+	margin: auto;
+}
+
+.footer-tagline h3 {
+	color: white;
+	font-size: 18px;
+	padding: 16 0;
+}
+
